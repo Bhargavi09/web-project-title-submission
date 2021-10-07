@@ -1,0 +1,105 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000;
+    background-image: url('/images/background.png');
+  
+}
+ul{
+    list-style: none;
+    background-color:#2e2eb8;
+    overflow: hidden;
+}
+nav li{
+    display: inline;
+    float: right;
+    padding: 20px;
+    color: cornsilk;
+    font-size: 1.5em;
+    
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+a:-webkit-any-link { 
+    text-decoration: none !important; 
+}
+a:hover{
+    
+    color:yellow;
+}
+.current {
+    background-color: #000;
+    color: aliceblue;
+}
+h1{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px #2e2eb8;
+    
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+     z-index: -1;
+     
+
+}
+.name{
+    background-color: aliceblue;
+    margin-top: -50px;
+    margin-bottom: 75px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 8px 8px blue;
+    z-index: 1;
+    position: relative;
+    
+   
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+@media screen and (max-width:450px) {
+    body{
+        font-size: 20px;
+    }
+    img{
+        width: 30%;
+    }
+    .name{
+        box-shadow: 2px 2px blue;
+        margin-top: -10px;
+        margin-bottom: 20px;
+        width: 100px;
+    }
+    ul{
+    list-style: none;
+    background-color:#2e2eb8;
+    overflow: hidden;
+}
+    nav li{
+        display: inline;
+        float: right;
+        color: cornsilk;
+        font-size: 0.5em;
+        
+    }
+    h2{
+        font-size: 5px;
+    }
+    h1{
+        font-size: 30px;
+    }
+
+}
+
+
+
